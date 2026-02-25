@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.2">
   <diagram name="Page-1" id="yYkvpb1WnnjAfufMib0k">
-    <mxGraphModel dx="2566" dy="1820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2309" dy="1820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -50,119 +50,108 @@
           <mxGeometry height="220" width="150" x="-25" as="geometry" />
         </mxCell>
         <mxCell id="DeAxLFvBSatZUGs2Nggo-39" parent="1" style="swimlane;startSize=30;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="&#xa;" vertex="1">
-          <mxGeometry height="960" width="560" y="250" as="geometry" />
-        </mxCell>
-        <mxCell id="DeAxLFvBSatZUGs2Nggo-40" edge="1" parent="DeAxLFvBSatZUGs2Nggo-39" source="DeAxLFvBSatZUGs2Nggo-42" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" target="DeAxLFvBSatZUGs2Nggo-43" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DeAxLFvBSatZUGs2Nggo-41" edge="1" parent="DeAxLFvBSatZUGs2Nggo-39" source="DeAxLFvBSatZUGs2Nggo-42" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" target="DeAxLFvBSatZUGs2Nggo-44" value="">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry height="960" width="915" x="80" y="250" as="geometry" />
         </mxCell>
         <UserObject label="VPC" treeRoot="1" id="DeAxLFvBSatZUGs2Nggo-42">
           <mxCell parent="DeAxLFvBSatZUGs2Nggo-39" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
-            <mxGeometry height="60" width="120" x="200" y="40" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="DeAxLFvBSatZUGs2Nggo-43" parent="DeAxLFvBSatZUGs2Nggo-39" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="BLUE SUBNET&lt;br&gt;(10.20.0.0/20)" vertex="1">
-          <mxGeometry height="60" width="100" x="20" y="140" as="geometry" />
-        </mxCell>
-        <mxCell id="DeAxLFvBSatZUGs2Nggo-44" parent="DeAxLFvBSatZUGs2Nggo-39" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="YELLOW SUBNET&amp;nbsp;&lt;br&gt;(10.25.0.0/20)" vertex="1">
-          <mxGeometry height="60" width="100" x="150" y="140" as="geometry" />
-        </mxCell>
-        <mxCell id="DeAxLFvBSatZUGs2Nggo-45" edge="1" parent="DeAxLFvBSatZUGs2Nggo-39" source="DeAxLFvBSatZUGs2Nggo-42" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;startArrow=none;endArrow=none;" target="DeAxLFvBSatZUGs2Nggo-46" value="">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="350" y="120" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <UserObject label="ORANGE SUBNET&lt;br&gt;(10.30.0.0/20)" treeRoot="1" id="DeAxLFvBSatZUGs2Nggo-46">
-          <mxCell parent="DeAxLFvBSatZUGs2Nggo-39" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
-            <mxGeometry height="60" width="120" x="270" y="140" as="geometry" />
+            <mxGeometry height="60" width="120" x="50" y="320" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="DeAxLFvBSatZUGs2Nggo-47" edge="1" parent="DeAxLFvBSatZUGs2Nggo-39" source="DeAxLFvBSatZUGs2Nggo-42" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.873;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;" target="DeAxLFvBSatZUGs2Nggo-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DeAxLFvBSatZUGs2Nggo-49" edge="1" parent="DeAxLFvBSatZUGs2Nggo-39" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;startArrow=none;endArrow=none;entryX=0.667;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="DeAxLFvBSatZUGs2Nggo-50" value="">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="720" y="120" />
-            </Array>
-            <mxPoint x="230" y="110" as="sourcePoint" />
-            <mxPoint x="480" y="120" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <UserObject label="INFRA SUBNET&lt;br&gt;(10.99.0.0/24)" treeRoot="1" id="DeAxLFvBSatZUGs2Nggo-50">
-          <mxCell parent="DeAxLFvBSatZUGs2Nggo-39" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
-            <mxGeometry height="60" width="120" x="400" y="140" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="DeAxLFvBSatZUGs2Nggo-52" edge="1" parent="DeAxLFvBSatZUGs2Nggo-39" source="DeAxLFvBSatZUGs2Nggo-43" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="70" y="260" as="sourcePoint" />
-            <mxPoint x="70" y="230" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DeAxLFvBSatZUGs2Nggo-54" parent="DeAxLFvBSatZUGs2Nggo-39" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="INTERNAL ENGINEERING&lt;br&gt;(LAYER OF TECH TEAM)" vertex="1">
-          <mxGeometry height="120" width="90" x="30" y="230" as="geometry" />
-        </mxCell>
-        <mxCell id="DeAxLFvBSatZUGs2Nggo-55" edge="1" parent="DeAxLFvBSatZUGs2Nggo-39" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="199.41" y="200" as="sourcePoint" />
-            <mxPoint x="199.41" y="230" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DeAxLFvBSatZUGs2Nggo-61" parent="DeAxLFvBSatZUGs2Nggo-39" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="MERU APPLICATION" vertex="1">
-          <mxGeometry height="120" width="90" x="160" y="230" as="geometry" />
-        </mxCell>
-        <mxCell id="DeAxLFvBSatZUGs2Nggo-60" parent="DeAxLFvBSatZUGs2Nggo-39" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="EXTERNAL CLIENTS&lt;br&gt;(WITH KILL SWITCH)" vertex="1">
-          <mxGeometry height="120" width="90" x="285" y="230" as="geometry" />
-        </mxCell>
-        <mxCell id="DeAxLFvBSatZUGs2Nggo-62" parent="DeAxLFvBSatZUGs2Nggo-39" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="WIREGUARD,DNS&lt;br&gt;(NEED TO MOVE INTERNAL TOOLS)" vertex="1">
-          <mxGeometry height="120" width="90" x="415" y="230" as="geometry" />
-        </mxCell>
         <mxCell id="DeAxLFvBSatZUGs2Nggo-64" parent="DeAxLFvBSatZUGs2Nggo-39" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SUBNET SEGMENTATION" vertex="1">
           <mxGeometry height="30" width="290" x="150" as="geometry" />
         </mxCell>
-        <mxCell id="DeAxLFvBSatZUGs2Nggo-66" edge="1" parent="DeAxLFvBSatZUGs2Nggo-39" source="DeAxLFvBSatZUGs2Nggo-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DeAxLFvBSatZUGs2Nggo-67" value="">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="D3Gsm9Hixz3q2peG67Pz-29" parent="DeAxLFvBSatZUGs2Nggo-39" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="YELLOW SUBNET&amp;nbsp;&lt;br&gt;(10.25.0.0/20)" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="DeAxLFvBSatZUGs2Nggo-67" parent="DeAxLFvBSatZUGs2Nggo-39" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="" vertex="1">
-          <mxGeometry height="120" width="90" x="30" y="390" as="geometry" />
-        </mxCell>
-        <mxCell id="DeAxLFvBSatZUGs2Nggo-68" edge="1" parent="DeAxLFvBSatZUGs2Nggo-39" source="DeAxLFvBSatZUGs2Nggo-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DeAxLFvBSatZUGs2Nggo-69" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DeAxLFvBSatZUGs2Nggo-69" parent="DeAxLFvBSatZUGs2Nggo-39" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="" vertex="1">
-          <mxGeometry height="120" width="90" x="160" y="390" as="geometry" />
-        </mxCell>
-        <mxCell id="DeAxLFvBSatZUGs2Nggo-70" edge="1" parent="DeAxLFvBSatZUGs2Nggo-39" source="DeAxLFvBSatZUGs2Nggo-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DeAxLFvBSatZUGs2Nggo-71" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DeAxLFvBSatZUGs2Nggo-71" parent="DeAxLFvBSatZUGs2Nggo-39" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="" vertex="1">
-          <mxGeometry height="120" width="90" x="285" y="390" as="geometry" />
-        </mxCell>
-        <mxCell id="DeAxLFvBSatZUGs2Nggo-72" edge="1" parent="DeAxLFvBSatZUGs2Nggo-39" source="DeAxLFvBSatZUGs2Nggo-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DeAxLFvBSatZUGs2Nggo-73" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DeAxLFvBSatZUGs2Nggo-73" parent="DeAxLFvBSatZUGs2Nggo-39" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="" vertex="1">
-          <mxGeometry height="120" width="90" x="415" y="390" as="geometry" />
-        </mxCell>
-        <mxCell id="DeAxLFvBSatZUGs2Nggo-56" edge="1" parent="1" source="DeAxLFvBSatZUGs2Nggo-46" style="endArrow=classic;html=1;rounded=0;exitX=0.412;exitY=1.041;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+        <UserObject label="ORANGE SUBNET&lt;br&gt;(10.30.0.0/20)" treeRoot="1" id="D3Gsm9Hixz3q2peG67Pz-30">
+          <mxCell parent="DeAxLFvBSatZUGs2Nggo-39" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
+            <mxGeometry height="60" width="120" x="290" y="350" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="INFRA SUBNET&lt;br&gt;(10.99.0.0/24)" treeRoot="1" id="D3Gsm9Hixz3q2peG67Pz-31">
+          <mxCell parent="DeAxLFvBSatZUGs2Nggo-39" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
+            <mxGeometry height="60" width="120" x="290" y="470" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="D3Gsm9Hixz3q2peG67Pz-32" edge="1" parent="DeAxLFvBSatZUGs2Nggo-39" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="320" y="460" as="sourcePoint" />
-            <mxPoint x="320" y="480" as="targetPoint" />
+            <mxPoint x="170" y="350" as="sourcePoint" />
+            <mxPoint x="200" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DeAxLFvBSatZUGs2Nggo-57" edge="1" parent="1" source="DeAxLFvBSatZUGs2Nggo-50" style="endArrow=classic;html=1;rounded=0;exitX=0.426;exitY=1.041;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+        <mxCell id="D3Gsm9Hixz3q2peG67Pz-38" edge="1" parent="DeAxLFvBSatZUGs2Nggo-39" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="D3Gsm9Hixz3q2peG67Pz-29" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="450" y="490" as="sourcePoint" />
-            <mxPoint x="450" y="480" as="targetPoint" />
+            <mxPoint x="200" y="270" as="sourcePoint" />
+            <mxPoint x="280" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="D3Gsm9Hixz3q2peG67Pz-37" edge="1" parent="DeAxLFvBSatZUGs2Nggo-39" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="200" y="150" as="sourcePoint" />
+            <mxPoint x="290" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D3Gsm9Hixz3q2peG67Pz-41" parent="DeAxLFvBSatZUGs2Nggo-39" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="BLUE SUBNET&lt;br&gt;(10.20.0.0/20)" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="D3Gsm9Hixz3q2peG67Pz-35" edge="1" parent="DeAxLFvBSatZUGs2Nggo-39" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="490" as="sourcePoint" />
+            <mxPoint x="290" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D3Gsm9Hixz3q2peG67Pz-42" edge="1" parent="DeAxLFvBSatZUGs2Nggo-39" source="D3Gsm9Hixz3q2peG67Pz-29" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="D3Gsm9Hixz3q2peG67Pz-43" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="520" as="sourcePoint" />
+            <mxPoint x="360" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D3Gsm9Hixz3q2peG67Pz-43" parent="DeAxLFvBSatZUGs2Nggo-39" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(237, 237, 237), rgb(255, 255, 255));&quot;&gt;MERU APPLICATION&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="D3Gsm9Hixz3q2peG67Pz-44" edge="1" parent="DeAxLFvBSatZUGs2Nggo-39" source="D3Gsm9Hixz3q2peG67Pz-41" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" target="D3Gsm9Hixz3q2peG67Pz-45" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3Gsm9Hixz3q2peG67Pz-45" parent="DeAxLFvBSatZUGs2Nggo-39" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span&gt;INTERNAL ENGINEERING&lt;/span&gt;&lt;br&gt;&lt;span&gt;(LAYER OF TECH TEAM)&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="D3Gsm9Hixz3q2peG67Pz-46" edge="1" parent="DeAxLFvBSatZUGs2Nggo-39" source="D3Gsm9Hixz3q2peG67Pz-30" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="D3Gsm9Hixz3q2peG67Pz-47" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="630" as="sourcePoint" />
+            <mxPoint x="630" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span&gt;EXTERNAL CLIENTS&lt;/span&gt;&lt;br&gt;&lt;span&gt;(WITH KILL SWITCH)&lt;/span&gt;&lt;/font&gt;" treeRoot="1" id="D3Gsm9Hixz3q2peG67Pz-47">
+          <mxCell parent="DeAxLFvBSatZUGs2Nggo-39" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
+            <mxGeometry height="60" width="120" x="450" y="350" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="D3Gsm9Hixz3q2peG67Pz-48" edge="1" parent="DeAxLFvBSatZUGs2Nggo-39" source="D3Gsm9Hixz3q2peG67Pz-31" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" target="D3Gsm9Hixz3q2peG67Pz-49" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span&gt;WIREGUARD,DNS&lt;/span&gt;&lt;br&gt;&lt;span&gt;(NEED TO MOVE INTERNAL TOOLS)&lt;/span&gt;&lt;/font&gt;" treeRoot="1" id="D3Gsm9Hixz3q2peG67Pz-49">
+          <mxCell parent="DeAxLFvBSatZUGs2Nggo-39" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
+            <mxGeometry height="60" width="120" x="450" y="470" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="DeAxLFvBSatZUGs2Nggo-65" edge="1" parent="1" source="DeAxLFvBSatZUGs2Nggo-39" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="DeAxLFvBSatZUGs2Nggo-39">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3Gsm9Hixz3q2peG67Pz-33" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="740" as="sourcePoint" />
+            <mxPoint x="280" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D3Gsm9Hixz3q2peG67Pz-39" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="D3Gsm9Hixz3q2peG67Pz-30" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="630" as="sourcePoint" />
+            <mxPoint x="630" y="600" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
